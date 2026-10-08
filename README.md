@@ -46,3 +46,9 @@ Utah FORGE Well 58-32 是**地热钻进代理数据**；目标 `Surface Torque` 
 ![SHAP importance](figures/fig4_shap_importance.png)
 
 Regenerate with `python figures/make_figures.py` (needs `matplotlib`, `pandas`, `numpy`).
+
+### 3D schematic illustration
+
+![Deep-sea mining rig 3D schematic](figures/fig5_rig_3d.png)
+
+Schematic illustration rendered in Python (matplotlib) - not ANSYS/Fluent/STAR-CCM+ output. Regenerate with `python figures/make_3d_schematic.py` (needs `matplotlib`, `numpy`). Drillship, derrick and drill string illustrate the system whose torque (WOB / RPM) this project models.
