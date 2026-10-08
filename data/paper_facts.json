@@ -1,0 +1,23 @@
+{
+  "paper_number": "P26-194",
+  "title": "Torque Prediction and Envelope Identification for Deepsea Mining Rigs",
+  "status": "Revised manuscript and reviewer response completed; submission history documented in local handoff; final acceptance/publication not verified here",
+  "samples": {
+    "raw": 7311,
+    "filtered": 6586,
+    "modeling": 6584
+  },
+  "target": "Depth-indexed Pason Surface Torque pressure-unit channel, kPa; not calibrated N m or time-ahead forecast",
+  "source_doi": "10.15121/1495411",
+  "source_url": "https://gdr.openei.org/submissions/1113",
+  "source_sha256": "065468bf3c41098541fa7d0f3b8754b32e659b0877ed0a12efca6072f022189b",
+  "paper_handoff_date": "2026-09-24",
+  "final_manuscript_sha256": "9556eeebf33fd8959259d1ad4e5c2c6e32dc471b63072eca3620b91eea52a37c",
+  "thresholds": {
+    "channel_kPa": 1212.126,
+    "positive_increment_kPa_per_depth_step": 67.29,
+    "absolute_residual_kPa": 259.834
+  },
+  "thresholds_precision": "Rounded published values; agree with all archived grid decisions",
+  "full_training_status": "Original final training script and model binaries not found in migrated folders; this edition provides numerical replay, not retraining"
+}

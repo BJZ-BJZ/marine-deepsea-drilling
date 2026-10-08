@@ -1,0 +1,24 @@
+name: Reproduce evidence
+on: [push, pull_request, workflow_dispatch]
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: pip
+      - run: python -m pip install -r requirements.txt
+      - run: python -m unittest discover -s tests
+      - run: python src/demo.py
+      - run: python src/verify.py
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: deepsea-drilling-verification-reports
+          path: reports/*.json
+          if-no-files-found: warn

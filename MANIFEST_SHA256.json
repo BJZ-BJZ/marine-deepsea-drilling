@@ -1,0 +1,27 @@
+{
+  "version": "v0.5.0",
+  "files": {
+    ".gitattributes": "86672fc8176f8540a2c4ac1a4bea43cce0defdf44c3377b628a5f9afcdd99f7b",
+    ".github/workflows/verify.yml": "124f2347d8b3919e04f837e91b4b76508daf0b39d15d4091acf6aad5c93bf768",
+    "DATA_ATTRIBUTION.md": "18a8c5b2594b93026bbfa935dd109ee13dc6cc62ba138058428b1cef0c75aaf5",
+    "README.md": "fb00a9d4c30de177d0421470a808c7a28dc331a9dd4cc27a9ea48dbfab2495e9",
+    "RIGHTS.md": "06684470a631e1a5d92526bead33c643f8bc268e06269c4fe9ce1f5129211adc",
+    "data/Well_58-32_processed_pason_log.csv": "065468bf3c41098541fa7d0f3b8754b32e659b0877ed0a12efca6072f022189b",
+    "data/metrics_by_model_revised.csv": "096235cccafe7caf0d9c9fe1dffb748ea166b1a609f47a2abcb15bced5d3e152",
+    "data/operational_envelope_grid_revised.csv": "fefdc823a7e634c6ea2ea43079fd804df51bfe4a901bc0e5f6804cbcad0c213c",
+    "data/paper_facts.json": "2078c7f1d5f06aff6b3a44fa62cc8c3880f252b1d7e9623c37c4f6a99accc461",
+    "data/predictions_all_splits_revised.csv": "2fa5d78d7e462b51219708fbdc1d092d99f51bd2247441b40077c14cd98fe25c",
+    "data/shap_residual_summary_heldout.csv": "72b9d3f2d93528ffa57665abf4daa6c7c6e405a9ed14989b9fb329d385f03430",
+    "data/split_assignments.csv": "dcd0e41f5e7be79db45a6d09805680ea14074f43d6e43ffc65bcaa89b6367104",
+    "figures/fig1_model_rmse_by_split.png": "52857530a643d7d69accd8019b78688a5cc01015048372c56b2af51f5c48f9dd",
+    "figures/fig2_parity_xgboost.png": "32420a5c6e26e8380587d8da22c80c7f1d13af93aead9dc5dda8785156efa3d9",
+    "figures/fig3_envelope_heatmap.png": "c92536b71a7a4af1009c509eef175f8bd1aa0e86e9ed243228bbf5d81a885e99",
+    "figures/fig4_shap_importance.png": "e07fcc096f6a37cc35b4765b25e08d4f24eedc2816416218c4cae27bdb40f6aa",
+    "figures/make_figures.py": "c90b3b883951eceb064fe5c610a3d925704c73df45cdd3537eaacba94788b86e",
+    "requirements.txt": "7bd6b8946940b79948c548c8048e545684b91c8edc9444d8dfc0c8f76a97c0a7",
+    "src/demo.py": "2a6985cf2b40b863ef983ed8cfefd40f116b4262b7c1d54d339fb31c3fb11f62",
+    "src/envelope.py": "6aaa569c20ccf72a8b4504d49e3fb17702fd47e46195206e2ca14af698b41f22",
+    "src/verify.py": "7259fe595cc495e74241ac7cc2abcbf85e80462126639ff6e378ba2774b986d3",
+    "tests/test_deepsea_drilling.py": "c90c4a9b9f8615db85748405da85948469690c9383184d8b8891b9f5b714c8eb"
+  }
+}
