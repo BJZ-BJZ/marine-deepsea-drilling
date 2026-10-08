@@ -87,5 +87,12 @@ ax.text(14, 10, D+40, 'derrick', fontsize=9)
 ax.text(8, 8, -70, 'drill string\n(WOB / RPM / torque)', fontsize=9)
 ax.text(120, 120, -DEPTH+6, 'seabed', fontsize=9)
 ax.text(-95, -60, D+30, 'drillship', fontsize=10, ha='center')
+_inset = fig.add_axes([0.73, 0.16, 0.22, 0.22])
+_inset.imshow(plt.imread(str(Path(__file__).parent / 'fig3_envelope_heatmap.png')))
+_inset.axis('off')
+_inset.set_title('WOB-RPM envelope', fontsize=7)
+ax.text2D(0.02, 0.96, 'Innovation: operational envelope identification\nTorque predicted from WOB / RPM  -  XGBoost R2 = 0.913',
+    transform=ax.transAxes, fontsize=8.5, va='top', ha='left',
+    bbox=dict(boxstyle='round,pad=0.4', facecolor='white', alpha=0.88))
 finish(ax, str(Path(__file__).parent / 'fig5_rig_3d.png'),
        'Deep-sea mining rig drilling schematic', elev=15, azim=-60)
