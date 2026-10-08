@@ -1,5 +1,13 @@
 # 深海采矿钻机通道预测与运行包络
 
+## 效果展示
+
+<p align="center">
+  <img src="figures/fig5_rig_3d.png" width="49%" />
+  <img src="figures/fig2_parity_xgboost.png" width="49%" />
+</p>
+
+
 研究论文题目：*Torque Prediction and Envelope Identification for Deepsea Mining Rigs*。
 
 **成果状态**：2026-09-24 权威交接包包含五页修订终稿、最终 Word/PDF 和 Reviewer 1 八条回复，已有投稿及审稿修订记录。本项目不是新的未完成构思；本包尚未核实正式录用或会议论文集发表状态。
